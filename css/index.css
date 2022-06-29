@@ -22,6 +22,10 @@ input[type=checkbox] {
   cursor: pointer;
 }
 
+.bi-moon {
+  display: none;
+}
+
 header {
   width: 100vw;
   height: 3.75rem;
@@ -94,6 +98,31 @@ main .second-section div button {
   padding: 1rem;
   border-radius: 2rem;
   cursor: pointer;
+}
+
+.dark, .dark header {
+  background-color: #263238;
+  color: #fff;
+}
+
+.dark .bi-sun {
+  display: none;
+}
+
+.dark .bi-moon {
+  display: block;
+}
+
+.dark .first-section {
+  background-color: #273035;
+}
+
+.dark .second-section {
+  background: #37474f;
+}
+
+.dark .second-section h4 {
+  color: #67b4f3;
 }
 
 /*# sourceMappingURL=index.css.map */
